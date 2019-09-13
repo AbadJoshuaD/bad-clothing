@@ -7,6 +7,7 @@ import {selectCartItems} from '../../redux/cart/cart.selectors'
 import {toggleCartHidden} from '../../redux/cart/cart.actions'
 import {createStructuredSelector} from 'reselect'
 import '../cart-dropdown/cart-dropdown.styles.scss';
+
 const CartDropdown = ({cartItems,dispatch,history}) =>(
     <div className = 'cart-dropdown'>
         <div className='cart-items'>
