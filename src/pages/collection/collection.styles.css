@@ -1,0 +1,28 @@
+.collection-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.collection-page .title {
+  font-size: 38px;
+  margin: 0 auto 30px;
+}
+
+.collection-page .items {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 10px;
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+}
+
+.collection-page .items .collection-item {
+  width: 100%;
+  margin-bottom: 30px;
+}
+/*# sourceMappingURL=collection.styles.css.map */

@@ -1,0 +1,76 @@
+.collection-item {
+  width: 22%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 350px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.collection-item .image {
+  width: 100%;
+  height: 90%;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+
+.collection-item .custom-button {
+  width: 80%;
+  opacity: 0.7;
+  position: absolute;
+  top: 255px;
+  display: none;
+}
+
+.collection-item:hover {
+  cursor: pointer;
+}
+
+.collection-item:hover .image {
+  opacity: 0.7;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: -webkit-transform 6s cubic-bezier(0.23, 1.2, 0.32, 1.2);
+  transition: -webkit-transform 6s cubic-bezier(0.23, 1.2, 0.32, 1.2);
+  transition: transform 6s cubic-bezier(0.23, 1.2, 0.32, 1.2);
+  transition: transform 6s cubic-bezier(0.23, 1.2, 0.32, 1.2), -webkit-transform 6s cubic-bezier(0.23, 1.2, 0.32, 1.2);
+}
+
+.collection-item:hover .custom-button {
+  opacity: 0.7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.collection-item .collection-footer {
+  width: 100%;
+  height: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 18px;
+}
+
+.collection-item .collection-footer .name {
+  width: 90%;
+  margin-bottom: 15px;
+}
+
+.collection-item .collection-footer .price {
+  width: 10%;
+}
+/*# sourceMappingURL=collection-item.styles.css.map */
