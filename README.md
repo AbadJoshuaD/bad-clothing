@@ -1,4 +1,7 @@
-## This was the main project from the Complete React Developer a full e-commerce website. I made this my first attempt learning the react eco system and stop on the redux part and remake try to remake the project on my own. You can find the original project on my repo https://github.com/AbadJoshuaD/crwn-clothing.  
+## This was the main project from the Complete React Developer a full e-commerce website. 
+
+I made this my first attempt learning the react eco system and stop on the redux part and remake try to remake the project on my own. You can find the original project on my repo https://github.com/AbadJoshuaD/crwn-clothing.  
+
 
 Here the things I have learned from doing my first attempt on this project.
 * React Router
